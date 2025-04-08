@@ -89,14 +89,27 @@ The backend will start at: `http://localhost:8080`
 {
     "status": "SUCCESS",
     "data": [
-        {
+       {
             "id": 3,
             "title": "Call the doctor",
             "description": "Schedule appointment for next Monday",
-            "completed": false,
+            "completed": true,
             "createdAt": "2025-04-08T11:48:27.202078"
         },
-        ...
+        {
+            "id": 2,
+            "title": "Buy groceries",
+            "description": "Milk, Bread, Eggs, Fruits",
+            "completed": true,
+            "createdAt": "2025-04-08T11:46:30.766855"
+        },
+        {
+            "id": 1,
+            "title": "Finish Spring Boot Assignment",
+            "description": "Implement ToDo application with create, list, and update features",
+            "completed": true,
+            "createdAt": "2025-04-08T11:41:30.508783"
+        }
     ]
 }
 ```
